@@ -4,6 +4,12 @@
 Генерирует .ico иконки для обоих exe — запускается автоматически из
 build_exe.bat перед сборкой, вручную вызывать не нужно.
 """
+import sys
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+except Exception:
+    pass
+
 from PIL import Image, ImageDraw, ImageFont
 
 
