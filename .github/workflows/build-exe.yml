@@ -1,3 +1,5 @@
+name: Build Godji Messenger EXE
+
 # Запускается вручную (кнопка "Run workflow" во вкладке Actions на GitHub)
 # и при каждом пуше файлов приложений — Windows и Python не нужны у тебя,
 # всё собирается в облаке GitHub на настоящей Windows.
